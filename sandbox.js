@@ -39,3 +39,11 @@ student = {
     course: "Physics",
     // class:"3-A" -> cannot add the attribute to the object
 };
+// 4th: explicit types:
+var char;
+var num;
+var arr3 = [];
+// union type array
+var mixarr2 = [];
+// union type variable
+var uid;
