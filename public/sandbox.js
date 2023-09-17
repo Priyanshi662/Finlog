@@ -53,3 +53,23 @@ var n1;
 var a4 = ["str", 23, true];
 // for objects 
 var obj2 = { name: "pri", age: 21 };
+// 5th : functions and their return types
+const fun1 = (a, c) => {
+    console.log(a, c);
+};
+const fun2 = (a, b, c) => {
+    // c here is an optional parameter
+    console.log(a, b);
+    console.log(c);
+};
+const fun3 = (a, b, c = 10) => {
+    // c is optional here with a default value as 10
+    console.log(a, b);
+    console.log(c);
+};
+const fun4 = (a, b, c = 10) => {
+    console.log(a, b);
+    console.log(c);
+    //  return type of this function is number |string , it can be void or any too
+    return a;
+};
