@@ -43,3 +43,18 @@ student={
     course:"Physics",
     // class:"3-A" -> cannot add the attribute to the object
 }
+
+// 4th: explicit types:
+let char : string;
+let num  : number;
+let arr3 : string[] =[];
+// union type array
+let mixarr2:(string|number)[]=[];
+// union type variable
+let uid : string|number;
+
+// 5th :dynamic types:
+var n1 : any 
+var a4 : any[] =["str",23,true];
+// for objects 
+var obj2 : {name:any,age:number} = {name:"pri",age:21};
