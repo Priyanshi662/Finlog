@@ -73,3 +73,7 @@ const fun4 = (a, b, c = 10) => {
     //  return type of this function is number |string , it can be void or any too
     return a;
 };
+var fun6;
+const fun5 = (user) => {
+    console.log(`${user.name} has an id ${user.uid}`);
+};

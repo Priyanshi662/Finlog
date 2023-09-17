@@ -80,3 +80,11 @@ const fun4=(a:number|string ,b:string, c:string|number=10):void|number|string=>{
 //  return type of this function is number |string , it can be void or any too
     return a;
 }
+
+// 6th : type aliases
+type usertemplate = {name:string ,uid:number};
+
+var fun6:Function;
+const fun5=(user:usertemplate)=>{
+    console.log(`${user.name} has an id ${user.uid}`);
+}
